@@ -1,0 +1,37 @@
+.ReadPosts {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.search-bar {
+    color: white;
+    text-align: left;
+    position: relative; /* Change position to relative */
+    margin-top: 3in; /* Move the search bar 3 inches from the top */
+    margin-right: 6in; /* Move the search bar 6 inches from the right */
+    margin-bottom: 10px; /* Adjust as needed */
+    margin-left: 10px; /* Adjust as needed */
+}
+
+.search-bar input[type="text"] {
+    font-size: 20px; /* Adjust the font size of the input */
+    width: 300px; /* Adjust the width of the input */
+    padding: 10px; /* Adjust the padding of the input */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Apply border radius */
+}
+
+.search-bar input[type="submit"] {
+    font-size: 20px; /* Adjust the font size of the button */
+    padding: 10px 20px; /* Adjust the padding of the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Apply border radius */
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    cursor: pointer; /* Change cursor to pointer */
+    margin-left: 10px; /* Adjust margin-left as needed */
+}
+
+
+

@@ -1,0 +1,129 @@
+.App {
+  font-family:Avenir, "Century Gothic", sans-serif;
+  font-weight:100; 
+  font-style:normal;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  justify-content: center;
+  /* background-color: rgba(0, 0, 0, 0.962); */
+  /* background-color: rgba(45, 27, 118, 0.528);  */
+  padding:20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.title-font {
+  color: #cdad7d;
+  font-family: 'Libre Baskerville';
+  font-size: 70px;
+  /* position: absolute; 
+  top: 0.5in; 
+  left: 0.5in;  */
+}
+
+.header {
+  /* width: 100%; */
+  text-align: left;
+  position: absolute; /* Position the title absolutely */
+  top: 0.5in; /* Half an inch down from the top */
+  left: 0.5in; /* Half an inch from the left */
+}
+
+.headerBtn {
+  margin-bottom: 5px; /* Adjust as needed */
+  color: black;
+  background-color: #cdad7d;
+  padding: 25px 100px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 5px;
+  border: none;
+}
+
+.ReadPosts {
+  margin-top: 100px; /* Adjust as needed */
+  margin-bottom: 10px; /* Adjust as needed */
+  margin-left: 8in; /* Move the cards 2 inches to the right */
+}
+
+.addButton {
+  position: absolute;
+  right: 2in; /* Adjust as needed */
+  top: 200px; /* Adjust as needed */
+  width: 70px;
+  height: 70px;
+}
+
+.header-div {
+  position: absolute;
+  top: 3in; /* 3 inches below main title */
+  left: 2in; /* 3 inches to the left of the card */
+}
+
+.about-font{
+  color: #cdad7d;
+  font-family: 'Libre Baskerville';
+}
+
+.search-bar {
+  color: white;
+  text-align: left;
+  position: relative; /* Change position to relative */
+  margin-top: 3in; /* Move the search bar 3 inches from the top */
+  margin-right: 6in; /* Move the search bar 6 inches from the right */
+  margin-bottom: 10px; /* Adjust as needed */
+  margin-left: 10px; /* Adjust as needed */
+}
+.aboutReadPosts{
+  margin-top: 350px; /* Adjust as needed */
+  margin-bottom: 10px; /* Adjust as needed */
+  margin-left: 8in; /* Move the cards 2 inches to the right */
+}
+
+.sports-stats{
+  margin-right: 10in; 
+  margin-top: 250px;
+}
+
+.aboutReadstats{
+  margin-top: 10px; /* Adjust as needed */
+  margin-bottom: 20px; /* Adjust as needed */
+  margin-left: 10in; /* Move the cards 2 inches to the right */
+}
+
+.stats-card{
+     /* backdrop-filter: blur(2px); */
+     border: 1px solid rgba(19, 15, 15, 0.571);
+     background-color: rgba(0, 0, 0, 0.474);
+     border-radius: 20px;
+     padding: 4px 20px;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     padding-right: 10px;
+     margin-bottom: 25px;
+     width: 800px; /* Adjust the width as needed */
+     height: auto; /* Let the height adjust automatically based on content */
+     text-align: center;
+}
+
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  /* padding: 0.6em 1.2em; */
+  font-size: 15px;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  color:white;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
